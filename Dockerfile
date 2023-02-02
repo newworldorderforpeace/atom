@@ -1,7 +1,7 @@
 # VERSION:        0.2
 # DESCRIPTION:    Image to build Atom
 
-FROM ubuntu:20.04
+FROM ubuntu:20.04@sha256:4a45212e9518f35983a976eead0de5eecc555a2f047134e9dd2cfc589076a00d
 
 # Install dependencies
 RUN apt-get update && \
